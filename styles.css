@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Montserrat&display=swap');
+@media only screen and (min-width: 360px) {
+    *{
+        top: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body{
+        background-color: #171717;
+        position: relative;
+    }
+
+    .topcontainer{
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .TopHeading{
+        background-color: #171717;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .medolyhead{
+        color: #DA0037;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .navigation{
+        background-color: #444444;
+        padding: 20px 25px 20px 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navtabs{
+        color: aliceblue;
+    }
+
+    .Hometabhead{
+        color: #DA0037;
+        font-family: 'Caveat', cursive;
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    .contentcontainer{
+        margin-top: 140px;
+    }
+
+    .BottomContainer{
+        padding: 20px 20px 10px 20px;
+    }
+
+    .SongLabel{
+        background: rgba( 0, 0, 0, 0.2 ); 
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .Thumbnail{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }    
+
+    .TitleContainer{
+        padding: 5px 15px 5px 15px;
+    }
+
+    .SongTitle{
+        font-size: 16px;
+        color: aliceblue;
+        margin-bottom: 10px;
+    }
+
+    .playbtn{
+        color: aqua;
+        padding-right: 10px;
+    }
+    .downloadbtn{
+        color: aqua;
+        padding-right: 10px;
+    }
+    .playbtn:hover{
+        color: #DA0037;
+    }
+    .downloadbtn:hover{
+        color: #DA0037;
+    }
+
+    .btndiv{
+        display: flex;
+        justify-content: center;
+    }
+
+    .MoreBtn{
+        background-color: aqua;
+        padding: 15px;
+        border-radius: 15px;
+        text-align: center;
+        font-weight: 600;
+        color: #171717;
+    }
+
+    footer{
+        padding: 30px;
+        text-align: center;
+    }
+
+    .brandlogos{
+        margin-bottom: 5px;
+    }
+
+    .FooterTitle{
+        font-size: 16px;
+        color: #DA0037;
+        margin-bottom: 10px;
+    }
+
+    .sociallinks{
+        color: aliceblue;
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    .sociallinks:hover{
+        color: aqua;
+    }
+
+    /*Player page styling*/
+
+    .playercontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .player{
+        width: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 20px;
+        background-color: #F1F3F4;
+        border-radius: 15px;
+    }
+
+    .playersongtitle{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        padding: 8px 0 8px 0;
+        color: #171717;   
+
+    }
+
+    .playerthumbnailimage{
+        width: 220px;
+        height: 240px;
+        text-align: center;
+        size: cover;
+    }
+
+    .audiobox{
+        width: 260px;
+        border-radius: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
